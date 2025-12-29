@@ -3,7 +3,7 @@
  * ALIPAY API: alipay.open.public.menu.data.batchquery request
  *
  * @author auto create
- * @since 1.0, 2024-08-13 12:44:55
+ * @since 1.0, 2025-08-14 01:22:39
  */
 class AlipayOpenPublicMenuDataBatchqueryRequest
 {

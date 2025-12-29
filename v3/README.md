@@ -2,7 +2,7 @@
 
 支付宝开放平台v3协议文档
 
-For more information, please visit [https://openhome.alipay.com/developmentDocument.htm](https://openhome.alipay.com/developmentDocument.htm).
+For more information, please visit [https://opendocs.alipay.com/open-v3/053sd1](https://opendocs.alipay.com/open-v3/053sd1).
 
 ## Installation & Usage
 
@@ -116,8 +116,8 @@ Class | Method | HTTP request | Description
 *AlipayCommerceEcEmployeeInfoApi* | [**modify**](docs/Api/AlipayCommerceEcEmployeeInfoApi.md#modify) | **PUT** /v3/alipay/commerce/ec/employee/info | 修改员工基础信息
 *AlipayCommerceEcEmployeeInfoApi* | [**query**](docs/Api/AlipayCommerceEcEmployeeInfoApi.md#query) | **GET** /v3/alipay/commerce/ec/employee/info/query | 查询员工详情
 *AlipayCommerceEcEmployeeInviteApi* | [**query**](docs/Api/AlipayCommerceEcEmployeeInviteApi.md#query) | **GET** /v3/alipay/commerce/ec/employee/invite | 获取员工签约激活链接
-*AlipayCommerceEcEmployeeTitleApi* | [**create**](docs/Api/AlipayCommerceEcEmployeeTitleApi.md#create) | **POST** /v3/alipay/commerce/ec/employee/title | 新增员工抬头关系
-*AlipayCommerceEcEmployeeTitleApi* | [**delete**](docs/Api/AlipayCommerceEcEmployeeTitleApi.md#delete) | **POST** /v3/alipay/commerce/ec/employee/title/delete | 删除员工抬头信息
+*AlipayCommerceEcEmployeeTitleApi* | [**create**](docs/Api/AlipayCommerceEcEmployeeTitleApi.md#create) | **POST** /v3/alipay/commerce/ec/employee/title | 员工抬头：新增员工抬头关系
+*AlipayCommerceEcEmployeeTitleApi* | [**delete**](docs/Api/AlipayCommerceEcEmployeeTitleApi.md#delete) | **POST** /v3/alipay/commerce/ec/employee/title/delete | 员工抬头：失效员工抬头关系
 *AlipayCommerceEcEmployeeTitleApi* | [**modify**](docs/Api/AlipayCommerceEcEmployeeTitleApi.md#modify) | **PUT** /v3/alipay/commerce/ec/employee/title | 修改员工抬头信息
 *AlipayCommerceEcEnterpriseApi* | [**create**](docs/Api/AlipayCommerceEcEnterpriseApi.md#create) | **POST** /v3/alipay/commerce/ec/enterprise/create | 企业签约注册
 *AlipayCommerceEcEnterpriseApi* | [**delete**](docs/Api/AlipayCommerceEcEnterpriseApi.md#delete) | **POST** /v3/alipay/commerce/ec/enterprise/delete | 企业注销
@@ -192,10 +192,10 @@ Class | Method | HTTP request | Description
 *AlipayEbppInvoiceEnterpriseconsumeOpenrulerelationApi* | [**create**](docs/Api/AlipayEbppInvoiceEnterpriseconsumeOpenrulerelationApi.md#create) | **POST** /v3/alipay/ebpp/invoice/enterpriseconsume/openrulerelation/create | 新增开票规则并绑定费控规则
 *AlipayEbppInvoiceEnterpriseconsumeRelatedetailApi* | [**query**](docs/Api/AlipayEbppInvoiceEnterpriseconsumeRelatedetailApi.md#query) | **GET** /v3/alipay/ebpp/invoice/enterpriseconsume/relatedetail/query | 合花账单关联详情查询
 *AlipayEbppInvoiceEnterpriseconsumeSummaryinvoicedetailApi* | [**query**](docs/Api/AlipayEbppInvoiceEnterpriseconsumeSummaryinvoicedetailApi.md#query) | **GET** /v3/alipay/ebpp/invoice/enterpriseconsume/summaryinvoicedetail/query | 查询汇总发票详情
-*AlipayEbppInvoiceEnterpriseexctrlEmployertitleApi* | [**batchquery**](docs/Api/AlipayEbppInvoiceEnterpriseexctrlEmployertitleApi.md#batchquery) | **POST** /v3/alipay/ebpp/invoice/enterpriseexctrl/employertitle/batchquery | 批量查询企业抬头
-*AlipayEbppInvoiceEnterpriseexctrlEmployertitleApi* | [**create**](docs/Api/AlipayEbppInvoiceEnterpriseexctrlEmployertitleApi.md#create) | **POST** /v3/alipay/ebpp/invoice/enterpriseexctrl/employertitle/create | 新增企业抬头
-*AlipayEbppInvoiceEnterpriseexctrlEmployertitleApi* | [**modify**](docs/Api/AlipayEbppInvoiceEnterpriseexctrlEmployertitleApi.md#modify) | **PUT** /v3/alipay/ebpp/invoice/enterpriseexctrl/employertitle | 修改企业抬头
-*AlipayEbppInvoiceEnterpriseexctrlEmployertitleApi* | [**query**](docs/Api/AlipayEbppInvoiceEnterpriseexctrlEmployertitleApi.md#query) | **GET** /v3/alipay/ebpp/invoice/enterpriseexctrl/employertitle/query | 查询企业抬头
+*AlipayEbppInvoiceEnterpriseexctrlEmployertitleApi* | [**batchquery**](docs/Api/AlipayEbppInvoiceEnterpriseexctrlEmployertitleApi.md#batchquery) | **POST** /v3/alipay/ebpp/invoice/enterpriseexctrl/employertitle/batchquery | 企业抬头：分页查询企业抬头信息
+*AlipayEbppInvoiceEnterpriseexctrlEmployertitleApi* | [**create**](docs/Api/AlipayEbppInvoiceEnterpriseexctrlEmployertitleApi.md#create) | **POST** /v3/alipay/ebpp/invoice/enterpriseexctrl/employertitle/create | 企业抬头：新增企业抬头
+*AlipayEbppInvoiceEnterpriseexctrlEmployertitleApi* | [**modify**](docs/Api/AlipayEbppInvoiceEnterpriseexctrlEmployertitleApi.md#modify) | **PUT** /v3/alipay/ebpp/invoice/enterpriseexctrl/employertitle | 企业抬头：修改企业抬头
+*AlipayEbppInvoiceEnterpriseexctrlEmployertitleApi* | [**query**](docs/Api/AlipayEbppInvoiceEnterpriseexctrlEmployertitleApi.md#query) | **GET** /v3/alipay/ebpp/invoice/enterpriseexctrl/employertitle/query | 企业抬头：查询企业抬头
 *AlipayEbppInvoiceExpenseProgressApi* | [**sync**](docs/Api/AlipayEbppInvoiceExpenseProgressApi.md#sync) | **POST** /v3/alipay/ebpp/invoice/expense/progress/sync | 发票报销处理进度同步
 *AlipayEbppInvoiceExpensecomsueOutsourceApi* | [**notify**](docs/Api/AlipayEbppInvoiceExpensecomsueOutsourceApi.md#notify) | **POST** /v3/alipay/ebpp/invoice/expensecomsue/outsource/notify | 同步外部额度变更（交易形式）
 *AlipayEbppInvoiceExpensecontrolAggregationApi* | [**create**](docs/Api/AlipayEbppInvoiceExpensecontrolAggregationApi.md#create) | **POST** /v3/alipay/ebpp/invoice/expensecontrol/aggregation/create | 创建费控规则聚合关系
@@ -508,13 +508,11 @@ Class | Method | HTTP request | Description
 *AlipayOpenInstantdeliveryAccountApi* | [**create**](docs/Api/AlipayOpenInstantdeliveryAccountApi.md#create) | **POST** /v3/alipay/open/instantdelivery/account/create | 即时配送商家账户创建
 *AlipayOpenInstantdeliveryAccountApi* | [**query**](docs/Api/AlipayOpenInstantdeliveryAccountApi.md#query) | **GET** /v3/alipay/open/instantdelivery/account/query | 即时配送商家账户查询
 *AlipayOpenInstantdeliveryMerchantagreementApi* | [**query**](docs/Api/AlipayOpenInstantdeliveryMerchantagreementApi.md#query) | **GET** /v3/alipay/open/instantdelivery/merchantagreement/query | 协议签署查询api
-*AlipayOpenInstantdeliveryMerchantagreementApi* | [**sign**](docs/Api/AlipayOpenInstantdeliveryMerchantagreementApi.md#sign) | **POST** /v3/alipay/open/instantdelivery/merchantagreement/sign | 即时配送中商家代扣协议签署
 *AlipayOpenInstantdeliveryMerchantshopApi* | [**batchquery**](docs/Api/AlipayOpenInstantdeliveryMerchantshopApi.md#batchquery) | **POST** /v3/alipay/open/instantdelivery/merchantshop/batchquery | 即时配送商家门店分页查询
 *AlipayOpenInstantdeliveryMerchantshopApi* | [**create**](docs/Api/AlipayOpenInstantdeliveryMerchantshopApi.md#create) | **POST** /v3/alipay/open/instantdelivery/merchantshop/create | 即时配送商家门店创建
 *AlipayOpenInstantdeliveryMerchantshopApi* | [**modify**](docs/Api/AlipayOpenInstantdeliveryMerchantshopApi.md#modify) | **POST** /v3/alipay/open/instantdelivery/merchantshop/modify | 即时配送商家门店更新
 *AlipayOpenInstantdeliveryMerchantshopApi* | [**query**](docs/Api/AlipayOpenInstantdeliveryMerchantshopApi.md#query) | **GET** /v3/alipay/open/instantdelivery/merchantshop/query | 即时配送商家门店详情查询
 *AlipayOpenInviteOrderApi* | [**query**](docs/Api/AlipayOpenInviteOrderApi.md#query) | **GET** /v3/alipay/open/invite/order/query | 查询签约申请单状态
-*AlipayOpenMiniAppdeployByappidApi* | [**query**](docs/Api/AlipayOpenMiniAppdeployByappidApi.md#query) | **GET** /v3/alipay/open/mini/appdeploy/byappid/query | 根据APPID分页查询小程序发布信息
 *AlipayOpenMiniAppdeployByappversionApi* | [**query**](docs/Api/AlipayOpenMiniAppdeployByappversionApi.md#query) | **GET** /v3/alipay/open/mini/appdeploy/byappversion/query | 通过版本查询小程序发布
 *AlipayOpenMiniAppdeployBydeployversionApi* | [**query**](docs/Api/AlipayOpenMiniAppdeployBydeployversionApi.md#query) | **GET** /v3/alipay/open/mini/appdeploy/bydeployversion/query | 根据发布版本查询小程序发布信息
 *AlipayOpenMiniBaseinfoApi* | [**modify**](docs/Api/AlipayOpenMiniBaseinfoApi.md#modify) | **POST** /v3/alipay/open/mini/baseinfo/modify | 小程序修改基础信息
@@ -544,14 +542,12 @@ Class | Method | HTTP request | Description
 *AlipayOpenMiniInnerbaseinfoApplogoApi* | [**upload**](docs/Api/AlipayOpenMiniInnerbaseinfoApplogoApi.md#upload) | **POST** /v3/alipay/open/mini/innerbaseinfo/applogo/upload | 内部小程序-小程序logo图片上传
 *AlipayOpenMiniInnerversionApi* | [**online**](docs/Api/AlipayOpenMiniInnerversionApi.md#online) | **POST** /v3/alipay/open/mini/innerversion/online | 内部小程序-上架
 *AlipayOpenMiniInnerversionApi* | [**sync**](docs/Api/AlipayOpenMiniInnerversionApi.md#sync) | **POST** /v3/alipay/open/mini/innerversion/sync | 小程序包信息推送
-*AlipayOpenMiniInnerversionApi* | [**upgrade**](docs/Api/AlipayOpenMiniInnerversionApi.md#upgrade) | **POST** /v3/alipay/open/mini/innerversion/upgrade | 升级模板实例化小程序
 *AlipayOpenMiniInnerversionApi* | [**upload**](docs/Api/AlipayOpenMiniInnerversionApi.md#upload) | **POST** /v3/alipay/open/mini/innerversion/upload | 内部小程序-打包构建
 *AlipayOpenMiniInnerversionAuditApi* | [**cancel**](docs/Api/AlipayOpenMiniInnerversionAuditApi.md#cancel) | **POST** /v3/alipay/open/mini/innerversion/audit/cancel | 内部链路撤销审核
 *AlipayOpenMiniInnerversionAuditApi* | [**submit**](docs/Api/AlipayOpenMiniInnerversionAuditApi.md#submit) | **POST** /v3/alipay/open/mini/innerversion/audit/submit | 小程序版本提交审核
 *AlipayOpenMiniInnerversionBackdevApi* | [**publish**](docs/Api/AlipayOpenMiniInnerversionBackdevApi.md#publish) | **POST** /v3/alipay/open/mini/innerversion/backdev/publish | 内部链路小程序退回开发
 *AlipayOpenMiniInnerversionBetaApi* | [**confirm**](docs/Api/AlipayOpenMiniInnerversionBetaApi.md#confirm) | **POST** /v3/alipay/open/mini/innerversion/beta/confirm | 确认邀测结果
 *AlipayOpenMiniInnerversionBetainfoApi* | [**query**](docs/Api/AlipayOpenMiniInnerversionBetainfoApi.md#query) | **GET** /v3/alipay/open/mini/innerversion/betainfo/query | 查看可邀测状态接口
-*AlipayOpenMiniInnerversionBuildauditApi* | [**submit**](docs/Api/AlipayOpenMiniInnerversionBuildauditApi.md#submit) | **POST** /v3/alipay/open/mini/innerversion/buildaudit/submit | 内部链路小程序构建并提审
 *AlipayOpenMiniInnerversionConditionApi* | [**batchquery**](docs/Api/AlipayOpenMiniInnerversionConditionApi.md#batchquery) | **POST** /v3/alipay/open/mini/innerversion/condition/batchquery | 根据状态批量查询版本信息
 *AlipayOpenMiniInnerversionContentApi* | [**rollback**](docs/Api/AlipayOpenMiniInnerversionContentApi.md#rollback) | **POST** /v3/alipay/open/mini/innerversion/content/rollback | 内部链路回滚版本
 *AlipayOpenMiniInnerversionGrayApi* | [**finish**](docs/Api/AlipayOpenMiniInnerversionGrayApi.md#finish) | **POST** /v3/alipay/open/mini/innerversion/gray/finish | 内部链路结束灰度
@@ -585,9 +581,7 @@ Class | Method | HTTP request | Description
 *AlipayOpenMiniSafedomainApi* | [**delete**](docs/Api/AlipayOpenMiniSafedomainApi.md#delete) | **DELETE** /v3/alipay/open/mini/safedomain/delete | 小程序删除域白名单
 *AlipayOpenMiniTemplateMarketingApi* | [**create**](docs/Api/AlipayOpenMiniTemplateMarketingApi.md#create) | **POST** /v3/alipay/open/mini/template/marketing/create | 小程序消息运营位创建
 *AlipayOpenMiniTemplateUsageApi* | [**query**](docs/Api/AlipayOpenMiniTemplateUsageApi.md#query) | **GET** /v3/alipay/open/mini/template/usage/query | 查询使用模板的小程序列表
-*AlipayOpenMiniTemplatemessageUsertemplateApi* | [**apply**](docs/Api/AlipayOpenMiniTemplatemessageUsertemplateApi.md#apply) | **POST** /v3/alipay/open/mini/templatemessage/usertemplate/apply | 小程序模板消息申请
 *AlipayOpenMiniTemplatemsgMaketingApi* | [**batchquery**](docs/Api/AlipayOpenMiniTemplatemsgMaketingApi.md#batchquery) | **POST** /v3/alipay/open/mini/templatemsg/maketing/batchquery | 小程序模板消息营销投放详情分页批量查询
-*AlipayOpenMiniTemplatemsgMaketingstatusApi* | [**modify**](docs/Api/AlipayOpenMiniTemplatemsgMaketingstatusApi.md#modify) | **POST** /v3/alipay/open/mini/templatemsg/maketingstatus/modify | 小程序模板消息营销投放详情状态修改
 *AlipayOpenMiniTemplatemsgTinypayswitchApi* | [**confirm**](docs/Api/AlipayOpenMiniTemplatemsgTinypayswitchApi.md#confirm) | **POST** /v3/alipay/open/mini/templatemsg/tinypayswitch/confirm | 小程序支付消息确认接口
 *AlipayOpenMiniTipsDeliveryApi* | [**batchquery**](docs/Api/AlipayOpenMiniTipsDeliveryApi.md#batchquery) | **POST** /v3/alipay/open/mini/tips/delivery/batchquery | 小程序收藏引导投放活动配置批量查询
 *AlipayOpenMiniTipsDeliveryApi* | [**create**](docs/Api/AlipayOpenMiniTipsDeliveryApi.md#create) | **POST** /v3/alipay/open/mini/tips/delivery/create | 小程序收藏引导投放活动配置创建
@@ -607,14 +601,9 @@ Class | Method | HTTP request | Description
 *AlipayOpenMiniVersionGrayApi* | [**cancel**](docs/Api/AlipayOpenMiniVersionGrayApi.md#cancel) | **POST** /v3/alipay/open/mini/version/gray/cancel | 小程序结束灰度
 *AlipayOpenMiniVersionGrayApi* | [**online**](docs/Api/AlipayOpenMiniVersionGrayApi.md#online) | **POST** /v3/alipay/open/mini/version/gray/online | 小程序灰度上架
 *AlipayOpenMiniVersionListApi* | [**query**](docs/Api/AlipayOpenMiniVersionListApi.md#query) | **GET** /v3/alipay/open/mini/version/list/query | 小程序版本列表查询
-*AlipayOpenMiniWidgetDataApi* | [**sync**](docs/Api/AlipayOpenMiniWidgetDataApi.md#sync) | **POST** /v3/alipay/open/mini/widget/data/sync | 小程序橱窗数据同步
-*AlipayOpenMiniWidgetGoodsApi* | [**modify**](docs/Api/AlipayOpenMiniWidgetGoodsApi.md#modify) | **PATCH** /v3/alipay/open/mini/widget/goods/modify | 小部件商品修改
-*AlipayOpenMiniWidgetGoodsApi* | [**query**](docs/Api/AlipayOpenMiniWidgetGoodsApi.md#query) | **GET** /v3/alipay/open/mini/widget/goods/query | 小部件商品查询
-*AlipayOpenMiniWidgetGoodsApi* | [**upload**](docs/Api/AlipayOpenMiniWidgetGoodsApi.md#upload) | **POST** /v3/alipay/open/mini/widget/goods/upload | 小部件商品上传
 *AlipayOpenPublicAccountApi* | [**create**](docs/Api/AlipayOpenPublicAccountApi.md#create) | **POST** /v3/alipay/open/public/account/create | 添加绑定商户会员号
 *AlipayOpenPublicAccountApi* | [**delete**](docs/Api/AlipayOpenPublicAccountApi.md#delete) | **DELETE** /v3/alipay/open/public/account/delete | 解除绑定商户会员号
 *AlipayOpenPublicAccountApi* | [**query**](docs/Api/AlipayOpenPublicAccountApi.md#query) | **GET** /v3/alipay/open/public/account/query | 查询绑定商户会员号
-*AlipayOpenPublicAccountApi* | [**reset**](docs/Api/AlipayOpenPublicAccountApi.md#reset) | **POST** /v3/alipay/open/public/account/reset | 重新设置绑定商家会员号
 *AlipayOpenPublicAdvertApi* | [**batchquery**](docs/Api/AlipayOpenPublicAdvertApi.md#batchquery) | **POST** /v3/alipay/open/public/advert/batchquery | 生活号广告位查询接口
 *AlipayOpenPublicAdvertApi* | [**create**](docs/Api/AlipayOpenPublicAdvertApi.md#create) | **POST** /v3/alipay/open/public/advert/create | 生活号广告位添加接口
 *AlipayOpenPublicAdvertApi* | [**delete**](docs/Api/AlipayOpenPublicAdvertApi.md#delete) | **DELETE** /v3/alipay/open/public/advert/delete | 生活号广告位删除接口
@@ -690,9 +679,6 @@ Class | Method | HTTP request | Description
 *AlipayOpenSearchBoxApi* | [**online**](docs/Api/AlipayOpenSearchBoxApi.md#online) | **POST** /v3/alipay/open/search/box/online | 上架搜索直达
 *AlipayOpenSearchBoxApi* | [**query**](docs/Api/AlipayOpenSearchBoxApi.md#query) | **GET** /v3/alipay/open/search/box/query | 查询搜索直达配置详情
 *AlipayOpenSearchBoxactivityApi* | [**apply**](docs/Api/AlipayOpenSearchBoxactivityApi.md#apply) | **POST** /v3/alipay/open/search/boxactivity/apply | 申请创建搜索直达活动配置
-*AlipayOpenSearchBoxactivityApi* | [**batchquery**](docs/Api/AlipayOpenSearchBoxactivityApi.md#batchquery) | **POST** /v3/alipay/open/search/boxactivity/batchquery | 批量查询搜索直达活动配置
-*AlipayOpenSearchBoxactivityApi* | [**modify**](docs/Api/AlipayOpenSearchBoxactivityApi.md#modify) | **POST** /v3/alipay/open/search/boxactivity/modify | 修改搜索直达活动配置
-*AlipayOpenSearchBoxactivityApi* | [**offline**](docs/Api/AlipayOpenSearchBoxactivityApi.md#offline) | **POST** /v3/alipay/open/search/boxactivity/offline | 下架搜索直达活动
 *AlipayOpenSearchBoxactivityApi* | [**query**](docs/Api/AlipayOpenSearchBoxactivityApi.md#query) | **GET** /v3/alipay/open/search/boxactivity/query | 查询搜索直达活动配置详情
 *AlipayOpenSearchOrderdetailApi* | [**query**](docs/Api/AlipayOpenSearchOrderdetailApi.md#query) | **POST** /v3/alipay/open/search/orderdetail/query | 查询搜索服务工单的详细信息
 *AlipayOpenSearchServiceorderApi* | [**batchquery**](docs/Api/AlipayOpenSearchServiceorderApi.md#batchquery) | **POST** /v3/alipay/open/search/serviceorder/batchquery | 搜索运营服务查询接口
@@ -716,9 +702,6 @@ Class | Method | HTTP request | Description
 *AlipayOpenSpBlueseaactivityApi* | [**query**](docs/Api/AlipayOpenSpBlueseaactivityApi.md#query) | **GET** /v3/alipay/open/sp/blueseaactivity/query | 服务商返佣活动申请单详情查询
 *AlipayOpenSpImageApi* | [**upload**](docs/Api/AlipayOpenSpImageApi.md#upload) | **POST** /v3/alipay/open/sp/image/upload | 图片上传接口
 *AlipayOpenSpIsvBillApi* | [**sync**](docs/Api/AlipayOpenSpIsvBillApi.md#sync) | **POST** /v3/alipay/open/sp/isv/bill/sync | 服务商账单数据回传
-*AlipayOpenSpIsvOperationApi* | [**sync**](docs/Api/AlipayOpenSpIsvOperationApi.md#sync) | **POST** /v3/alipay/open/sp/isv/operation/sync | 服务商作业结果数据回传
-*AlipayOpenSpIsvRelationApi* | [**query**](docs/Api/AlipayOpenSpIsvRelationApi.md#query) | **GET** /v3/alipay/open/sp/isv/relation/query | spcenter服务商推广关系查询
-*AlipayOpenSpIsvSalesApi* | [**sync**](docs/Api/AlipayOpenSpIsvSalesApi.md#sync) | **POST** /v3/alipay/open/sp/isv/sales/sync | 商户销售数据回传接口
 *AlipayOpenSpIsvSignauthApi* | [**create**](docs/Api/AlipayOpenSpIsvSignauthApi.md#create) | **POST** /v3/alipay/open/sp/isv/signauth/create | 创建签约授权一体化订单
 *AlipayOpenSpIsvSignauthApi* | [**query**](docs/Api/AlipayOpenSpIsvSignauthApi.md#query) | **GET** /v3/alipay/open/sp/isv/signauth/query | 查询签约授权一体化订单状态详情
 *AlipayOpenSpLeadsExpandApi* | [**create**](docs/Api/AlipayOpenSpLeadsExpandApi.md#create) | **POST** /v3/alipay/open/sp/leads/expand/create | 在线写入商机库
@@ -727,7 +710,6 @@ Class | Method | HTTP request | Description
 *AlipayOpenSpOperationQrcodeApi* | [**query**](docs/Api/AlipayOpenSpOperationQrcodeApi.md#query) | **GET** /v3/alipay/open/sp/operation/qrcode/query | 查询代运营授权或者账号绑定二维码
 *AlipayOpenSpOperationResultApi* | [**query**](docs/Api/AlipayOpenSpOperationResultApi.md#query) | **GET** /v3/alipay/open/sp/operation/result/query | 查询服务商代运营操作结果
 *AlipayOpenSpOpporDetailApi* | [**query**](docs/Api/AlipayOpenSpOpporDetailApi.md#query) | **GET** /v3/alipay/open/sp/oppor/detail/query | 商机作业详情查询
-*AlipayOpenSpOpporFeedbackApi* | [**modify**](docs/Api/AlipayOpenSpOpporFeedbackApi.md#modify) | **POST** /v3/alipay/open/sp/oppor/feedback/modify | 商机拓展完成
 *AlipayOpenSpOpporPageApi* | [**query**](docs/Api/AlipayOpenSpOpporPageApi.md#query) | **GET** /v3/alipay/open/sp/oppor/page/query | 商机作业列表查询
 *AlipayOpenViolationViolationdetailApi* | [**query**](docs/Api/AlipayOpenViolationViolationdetailApi.md#query) | **GET** /v3/alipay/open/violation/violationdetail/query | 违规记录详情查询
 *AlipayOpenViolationViolationeventApi* | [**batchquery**](docs/Api/AlipayOpenViolationViolationeventApi.md#batchquery) | **POST** /v3/alipay/open/violation/violationevent/batchquery | 违规记录列表查询
@@ -736,9 +718,7 @@ Class | Method | HTTP request | Description
 *AlipayPcreditHuabeiAuthAgreementApi* | [**query**](docs/Api/AlipayPcreditHuabeiAuthAgreementApi.md#query) | **GET** /v3/alipay/pcredit/huabei/auth/agreement/query | 花芝轻会员协议查询接口
 *AlipayPcreditHuabeiAuthOrderApi* | [**query**](docs/Api/AlipayPcreditHuabeiAuthOrderApi.md#query) | **GET** /v3/alipay/pcredit/huabei/auth/order/query | 花呗先享订单查询接口
 *AlipayPcreditHuabeiAuthOrderApi* | [**unfreeze**](docs/Api/AlipayPcreditHuabeiAuthOrderApi.md#unfreeze) | **PUT** /v3/alipay/pcredit/huabei/auth/order/unfreeze | 花呗先享解冻或解约接口
-*AlipayPcreditHuabeiAuthRefundApi* | [**apply**](docs/Api/AlipayPcreditHuabeiAuthRefundApi.md#apply) | **PUT** /v3/alipay/pcredit/huabei/auth/refund/apply | 花芝结算扣款费用逆向退款申请
 *AlipayPcreditHuabeiAuthSettleApi* | [**apply**](docs/Api/AlipayPcreditHuabeiAuthSettleApi.md#apply) | **PUT** /v3/alipay/pcredit/huabei/auth/settle/apply | 花芝轻会员结算申请
-*AlipaySecurityDataSssApi* | [**create**](docs/Api/AlipaySecurityDataSssApi.md#create) | **POST** /v3/alipay/security/data/sss/create/{a} | 文档回归测试勿动openapi_openid_post多场景
 *AlipaySecurityProdSssApi* | [**query**](docs/Api/AlipaySecurityProdSssApi.md#query) | **POST** /v3/alipay/security/prod/sss/query/{bbb} | 金柚测试3.0接口
 *AlipaySecurityRiskCustomerriskApi* | [**send**](docs/Api/AlipaySecurityRiskCustomerriskApi.md#send) | **POST** /v3/alipay/security/risk/customerrisk/send | 商户数据同步
 *AlipaySecurityRiskVerifyidentityMiniappApi* | [**confirm**](docs/Api/AlipaySecurityRiskVerifyidentityMiniappApi.md#confirm) | **POST** /v3/alipay/security/risk/verifyidentity/miniapp/confirm | 小程序核验服务结果确认接口
@@ -815,9 +795,9 @@ Class | Method | HTTP request | Description
 *AntMerchantExpandShopApi* | [**query**](docs/Api/AntMerchantExpandShopApi.md#query) | **GET** /v3/ant/merchant/shop | 店铺查询接口
 *AntMerchantExpandShopPageApi* | [**query**](docs/Api/AntMerchantExpandShopPageApi.md#query) | **GET** /v3/ant/merchant/shop/pagequery | 店铺分页查询接口
 *AntMerchantExpandShopReceiptaccountApi* | [**save**](docs/Api/AntMerchantExpandShopReceiptaccountApi.md#save) | **POST** /v3/ant/merchant/expand/shop/receiptaccount/save | 店铺增加收单账号
-*DatadigitalFincloudGeneralsaasFaceCertifyApi* | [**initialize**](docs/Api/DatadigitalFincloudGeneralsaasFaceCertifyApi.md#initialize) | **POST** /v3/datadigital/fincloud/generalsaas/face/certify/initialize | H5人脸核身初始化
-*DatadigitalFincloudGeneralsaasFaceCertifyApi* | [**query**](docs/Api/DatadigitalFincloudGeneralsaasFaceCertifyApi.md#query) | **GET** /v3/datadigital/fincloud/generalsaas/face/certify/query | H5人脸核身查询记录
-*DatadigitalFincloudGeneralsaasFaceCertifyApi* | [**verify**](docs/Api/DatadigitalFincloudGeneralsaasFaceCertifyApi.md#verify) | **POST** /v3/datadigital/fincloud/generalsaas/face/certify/verify | H5人脸核身开始认证
+*DatadigitalFincloudGeneralsaasFaceCertifyApi* | [**initialize**](docs/Api/DatadigitalFincloudGeneralsaasFaceCertifyApi.md#initialize) | **POST** /v3/datadigital/fincloud/generalsaas/face/certify/initialize | 跳转支付宝人脸核身初始化
+*DatadigitalFincloudGeneralsaasFaceCertifyApi* | [**query**](docs/Api/DatadigitalFincloudGeneralsaasFaceCertifyApi.md#query) | **GET** /v3/datadigital/fincloud/generalsaas/face/certify/query | 跳转支付宝人脸核身查询记录
+*DatadigitalFincloudGeneralsaasFaceCertifyApi* | [**verify**](docs/Api/DatadigitalFincloudGeneralsaasFaceCertifyApi.md#verify) | **POST** /v3/datadigital/fincloud/generalsaas/face/certify/verify | 跳转支付宝人脸核身开始认证
 *DatadigitalFincloudGeneralsaasFaceCheckApi* | [**initialize**](docs/Api/DatadigitalFincloudGeneralsaasFaceCheckApi.md#initialize) | **POST** /v3/datadigital/fincloud/generalsaas/face/check/initialize | 活体检测初始化
 *DatadigitalFincloudGeneralsaasFaceCheckApi* | [**query**](docs/Api/DatadigitalFincloudGeneralsaasFaceCheckApi.md#query) | **GET** /v3/datadigital/fincloud/generalsaas/face/check/query | 活体检测结果查询
 *DatadigitalFincloudGeneralsaasFaceSourceApi* | [**certify**](docs/Api/DatadigitalFincloudGeneralsaasFaceSourceApi.md#certify) | **POST** /v3/datadigital/fincloud/generalsaas/face/source/certify | 纯服务端人脸核身
@@ -876,6 +856,6 @@ vendor/bin/phpunit
 
 This PHP package is automatically generated by the [OpenAPI Generator](https://openapi-generator.tech) project:
 
-- API version: `2024-08-21`
-    - Package version: `3.0.7`
+- API version: `2025-12-15`
+    - Package version: `3.0.70`
 - Build package: `org.openapitools.codegen.languages.PhpClientCodegen`

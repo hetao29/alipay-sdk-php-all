@@ -3,7 +3,7 @@
  * ALIPAY API: alipay.merchant.group.promotionurl.query request
  *
  * @author auto create
- * @since 1.0, 2024-05-30 15:42:03
+ * @since 1.0, 2025-02-26 10:22:24
  */
 class AlipayMerchantGroupPromotionurlQueryRequest
 {

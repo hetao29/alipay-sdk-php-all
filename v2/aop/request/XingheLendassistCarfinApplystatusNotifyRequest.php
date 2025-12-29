@@ -3,7 +3,7 @@
  * ALIPAY API: xinghe.lendassist.carfin.applystatus.notify request
  *
  * @author auto create
- * @since 1.0, 2024-04-24 11:42:01
+ * @since 1.0, 2025-10-22 15:57:39
  */
 class XingheLendassistCarfinApplystatusNotifyRequest
 {

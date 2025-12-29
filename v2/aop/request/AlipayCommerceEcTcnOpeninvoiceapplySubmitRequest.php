@@ -3,7 +3,7 @@
  * ALIPAY API: alipay.commerce.ec.tcn.openinvoiceapply.submit request
  *
  * @author auto create
- * @since 1.0, 2024-07-03 14:32:04
+ * @since 1.0, 2024-11-28 11:31:11
  */
 class AlipayCommerceEcTcnOpeninvoiceapplySubmitRequest
 {

@@ -3,7 +3,7 @@
  * ALIPAY API: alipay.commerce.petinsure.query request
  *
  * @author auto create
- * @since 1.0, 2024-08-01 16:32:05
+ * @since 1.0, 2025-01-21 16:07:21
  */
 class AlipayCommercePetinsureQueryRequest
 {

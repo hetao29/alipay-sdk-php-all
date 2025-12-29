@@ -3,7 +3,7 @@
  * ALIPAY API: alipay.open.public.topic.delete request
  *
  * @author auto create
- * @since 1.0, 2024-07-04 15:51:39
+ * @since 1.0, 2025-08-13 21:42:41
  */
 class AlipayOpenPublicTopicDeleteRequest
 {

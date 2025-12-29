@@ -3,7 +3,7 @@
  * ALIPAY API: alipay.cloud.nextbuilder.agent.chat.generate request
  *
  * @author auto create
- * @since 1.0, 2024-07-12 15:47:04
+ * @since 1.0, 2025-07-11 15:47:32
  */
 class AlipayCloudNextbuilderAgentChatGenerateRequest
 {

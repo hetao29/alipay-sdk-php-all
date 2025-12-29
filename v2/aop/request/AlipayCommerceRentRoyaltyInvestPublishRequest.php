@@ -3,7 +3,7 @@
  * ALIPAY API: alipay.commerce.rent.royalty.invest.publish request
  *
  * @author auto create
- * @since 1.0, 2024-07-16 15:32:05
+ * @since 1.0, 2025-08-10 19:22:35
  */
 class AlipayCommerceRentRoyaltyInvestPublishRequest
 {

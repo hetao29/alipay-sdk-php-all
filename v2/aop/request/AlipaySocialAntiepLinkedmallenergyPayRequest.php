@@ -3,7 +3,7 @@
  * ALIPAY API: alipay.social.antiep.linkedmallenergy.pay request
  *
  * @author auto create
- * @since 1.0, 2023-12-25 20:01:55
+ * @since 1.0, 2025-09-17 17:02:39
  */
 class AlipaySocialAntiepLinkedmallenergyPayRequest
 {

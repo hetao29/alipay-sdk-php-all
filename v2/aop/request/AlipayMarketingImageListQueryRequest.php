@@ -3,7 +3,7 @@
  * ALIPAY API: alipay.marketing.image.list.query request
  *
  * @author auto create
- * @since 1.0, 2024-08-08 16:57:07
+ * @since 1.0, 2025-06-24 13:34:55
  */
 class AlipayMarketingImageListQueryRequest
 {
